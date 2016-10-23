@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     private static String usernameString;
     private static String keywordString;
 
+    int[] rtnVals = new int[2];
+
     public Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -91,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void run() {
+                //replace try catch block with actual function call
                 try {
                     System.out.println(username);
                     Thread.sleep(4000);

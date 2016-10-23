@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">tweetLadder</string>
     <string name="infotext">Welcome to tweetLadder!\nType a person and word to see how \n related the two are!</string>
-    <string name="usernameBoxString">\@tweetLadder_UT</string>
+    <string name="usernameBoxString">tweetLadder_UT</string>
     <string name="keywordBoxString">Data</string>
 </resources>
