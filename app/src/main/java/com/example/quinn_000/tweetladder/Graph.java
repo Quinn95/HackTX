@@ -76,6 +76,8 @@ class Graph extends AppCompatActivity {
         /*Y axis*/
         YAxis yAxis = barChart.getAxisRight();
         YAxis leftAxis = barChart.getAxisLeft();
+        leftAxis.setAxisMinimum(00f);
+        leftAxis.setAxisMaximum(100f);
 
         barChart.getAxisRight().setEnabled(false);
         XAxis xAxis = barChart.getXAxis();

@@ -39,7 +39,7 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/keywordBox"
-        android:textAlignment="center"
+        android:textAlignment="viewStart"
         android:hint="@string/keywordBoxString"
         android:textSize="18sp"
         android:layout_centerVertical="true"
@@ -52,7 +52,7 @@
         android:ems="10"
         android:id="@+id/usernameBox"
         android:inputType="textPersonName"
-        android:textAlignment="center"
+        android:textAlignment="viewStart"
         android:hint="@string/usernameBoxString"
         android:layout_above="@+id/keywordBox"
         android:layout_centerHorizontal="true"
@@ -68,6 +68,17 @@
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/usernameBox"
         android:layout_alignStart="@+id/usernameBox" />
+
+    <TextView
+        android:text="\@"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:id="@+id/textView2"
+        android:layout_alignBaseline="@+id/usernameBox"
+        android:layout_alignBottom="@+id/usernameBox"
+        android:layout_toLeftOf="@+id/usernameBox"
+        android:layout_toStartOf="@+id/usernameBox" />
 
 
 </RelativeLayout>
